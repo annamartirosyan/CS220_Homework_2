@@ -25,5 +25,3 @@ for root, directories, files in os.walk(pathFrom):
 for root, directories, files in os.walk(pathFrom):
     for file in files:
         generateFiles(root, file, pathTo)
-
-# Time: real 0m12.
